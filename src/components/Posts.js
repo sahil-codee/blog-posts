@@ -25,7 +25,7 @@ function Posts({ blogs }) {
                     <input className="search-bar"
                         type="text"
                         value={searchInput}
-                        placeholder="Search....."
+                        placeholder=" Search....."
                         onChange={(e) => searchItems(e.target.value)}
                     ></input>
             <Container>
